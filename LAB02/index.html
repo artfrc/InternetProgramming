@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>HTML Old Style Formatting</title>
+
+</head>
+<body>
+
+    <img src="imagens/image-700.png" alt="FACOM" class = "facom-image">
+
+    <h1 class="disciplina">
+        Programação para Internet
+    </h1>
+
+    <h2 class="lab">
+        Laboratório 02
+    </h2>
+
+    <h3 class="aluno">Arthur Fernandes Ribeiro Costa</h3>
+
+    <h4 class="matricula">11911BCC059</h4>
+    
+    <p class="frase">
+        Este é o meu primeiro site!
+    </p>
+
+    <a href="https://www.facom.ufu.br/~flavio">Visite o site do meu professor</a>
+
+    <br>
+
+    <a href="https://www.google.com" target="_blank">Google</a>
+
+    <br>
+
+    <a href="https://www.facom.ufu.br">FACOM</a>
+
+    <br>
+    <hr>
+    <br>
+
+    <h3>
+        Lista sem ordenação
+    </h3>
+
+    <ul class="lista1">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <br>
+
+    <h3>
+        Lista com ordenação
+    </h3>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <br>
+
+    <h3>
+        Lista com marcador diferente
+    </h3>
+
+    <ul class="ul-ufu">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>
+        TABELA DE PRODUTOS
+    </h2>
+
+    <br>
+
+    <table id="tabela">
+        <tr>
+            <th>DESCRIÇÃO</th>
+            <th>IMAGEM</th>
+            <th>PREÇO</th>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>
+                <img src="https://images.rappi.com.br/products/2099704884-1598458808142.jpg?d=128x128&e=webp&q=70" alt="banana">
+            </td>
+            <td>R$6,99/Kg</td>
+        </tr>
+
+        <tr>
+            <td>Maçã</td>
+            <td>
+                <img src="https://images.rappi.com.br/products/2110359979-1618453442102.png?d=128x128&e=webp&q=70" alt="maça">
+            </td>
+            <td>R$5,99/Kg</td>
+        </tr>
+
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <h3>
+        Assista ao vídeo a seguir:
+    </h3>
+
+    <video width="500" height="240" controls>
+        <source src="https://static.videezy.com/system/resources/previews/000/000/150/original/waterdrop.mp4">
+        <source src="https://static.videezy.com/system/resources/previews/000/000/150/original/waterdrop.mp4">type="video/ogg"
+        Seu navegador não supor video tag.
+    </video>
+
+    <br>
+    <hr>
+    <br>
+
+    <h3>
+        Formulário para cadastrar produto
+    </h3>
+
+    <form action="/action_page.php" class="forms">
+        <label for="fname">Nome produto:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="fimage">URL imagem:</label><br>
+        <input type="url" id="fimage" name="fimage"><br><br>
+        <label for="preco">Preço:</label><br>
+        <input type="text" id="textPreco" name="textPreco"><br><br>
+        <label for="radioText">Produto estava em falta?</label>
+        <input type="radio" id="sim" name="radioSim" value="Sim">
+        <label for="simRadio">Sim</label>
+        <input type="radio" id="nao" name="radioNao" value="Nao">
+        <label for="naoRadio">Não</label><br><br>
+        <label for="checkBoxTest" id="checkBoxTest" name="checkBoxTest">Teste de checkbox</label><br>
+        <input type="checkbox">
+        <label for="opcao1">Opção 1</label><br>
+        <input type="checkbox">
+        <label for="opcao2">Opção 2</label><br>
+        <input type="checkbox">
+        <label for="opcao3">Opção 3</label><br><br>
+        <input type="submit" value="Cadastrar">
+    </form><br>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <h1> <strong>Fill in the data</strong></h1>
+        </div>
+        <form id="form" class="form">
+
+            <div class="form-control">
+                <label for="FullName">Full name</label>
+                <input 
+                    type="text"
+                    id="FullName"
+                    placeholder="Enter the full name">
+                <small></small>
+            </div><br>
+
+            <div class="form-control">
+                <label for="sexo">Sexo</label>
+                <input 
+                    type="radio"
+                    id="sexoMasc"
+                    name="op"
+                    value="Masculine">Masculine
+
+                <input 
+                type="radio"
+                id="sexoFemi"
+                name="op"
+                value="Feminine">Feminine
+                <small></small>
+            </div><br>
+
+            
+            <div class="form-control">
+                <label for="birth">Birth</label>
+                <input 
+                    type="date"
+                    id="birth">
+                    <small></small>
+                </div><br>
+                
+                <div class="form-control">
+                    <label for="cpf">CPF</label>
+                    <input 
+                    type="text"
+                    id="cpf"
+                    placeholder="ex.: 12345678900">
+                    <small></small>
+                </div><br>
+                
+                <div class="form-control">
+                    <label for="cep">CEP</label>
+                    <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" target="_blank">Search CEP</a>
+                    <input 
+                        type="text"
+                        id="cep"
+                        placeholder="ex.: 10000-000">
+                        <small></small>
+                </div><br>
+            
+                <div class="form-control">
+                    <label for="logradouro">Public Place</label>
+                    <input 
+                        type="text"
+                        id="logradouro"
+                        placeholder="Street...">
+                        <small></small>
+                </div><br>
+
+                <div class="form-control">
+                    <label for="bairro">District</label>
+                    <input 
+                        type="text"
+                        id="bairro">
+                </div><br>
+
+                <div class="form-control">
+                    <label for="Location">Location</label>
+                    <input 
+                        type="text"
+                        id="localidade">
+                </div><br>
+
+                <div class="form-control">
+                    <label for="UF">UF</label>
+                    <input 
+                        type="text"
+                        id="uf">
+                </div><br>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+        
+    </div><br>
+
+    <script src="./scripts.js"></script>
+
+</body>
+</html>

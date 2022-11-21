@@ -1,0 +1,108 @@
+body{
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.facom-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.disciplina{
+    color: red;
+    font-family: cursive;
+}
+
+.lab{
+    color: red;
+    font-family: cursive;
+}
+
+.aluno{
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.matricula{
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.frase{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5ch;
+}
+
+a:link{
+    text-align: center;
+    display: block;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: #04AA6D
+}
+
+ul.ufu{
+    list-style-image: url('imagens/ufu.gif');
+}
+
+#tabela{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabela td, #tabela th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tabela tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#tabela tr:hover{
+    background-color: #ddd;
+}
+
+#tabela th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+input[type=text]{
+    width: 30%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+input[type=url]{
+    width: 60%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label{
+    font-weight: bolder;
+}
+
+.forms{
+    padding: 50%;
+    background-color: #04AA6D;
+    font-size: 2ch;
+    padding: 5px;
+    color: white;
+}

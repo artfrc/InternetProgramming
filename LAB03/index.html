@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Formulário</title>
+    </head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <h2>Dados do titular</h2>
+        </div>
+        
+        <form id="form" class="form">
+            
+            <div class="form-control">
+                <label for="name">* Nome completo</label>
+                <input 
+                type="text" 
+                id="name"
+                placeholder="Digite seu nome completo">
+                <small></small>
+            </div>
+
+            <div>
+                <label for="sexo">* Sexo</label><br>
+                <input type="radio" id="sexom" name="op" value="MASCULINO"> Masculino
+                <input type="radio" id="sexof" name="op" value="FEMININO"> Feminino
+            </div>
+
+            <br>
+            
+            <div class="form-control">
+                <label for="data_nasc">* Data nascimento (dd/mm/aaa)</label>
+                <input 
+                    type="date" 
+                    id="data_nasc"
+                    placeholder="Digite sua data de nascimento">
+                <small></small>
+            </div>
+
+            <div class="form-control">
+                <label for="cpf">* CPF (ex.: 22222222212)</label>
+                <input 
+                    type="text" 
+                    id="cpf"
+                    placeholder="Digite seu CPF">
+                <small></small>
+            </div>
+
+            <div class="form-control">
+                <label for="cep">* CEP</label>
+                <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" target="_blank">Pesquisar CEP</a>
+                <input 
+                    type="text" 
+                    id="cep"
+                    placeholder="Digite seu CEP">
+                <small></small>
+            </div>
+
+            <br>
+            <h6>* Campos obrigatórios.</h6>
+            <br>
+            <h6>Atenção: o nome e a data de nascimento devem ser o mesmo do titular do CPF informado.</h6>
+            <br>
+            <button type="submit">Enviar</button>
+       
+
+
+        </form>
+    </div>
+
+    <script src="./scripts.js"></script>
+
+</body>
+</html>
